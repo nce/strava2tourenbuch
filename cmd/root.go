@@ -133,7 +133,7 @@ func initConfig() {
 			log.Fatal().Msg("Config file ~/.tourenbuchctl not found")
 		} else {
 			log.Fatal().Msg("Parsing config file not possible. The file should contain " +
-				"the following environment variables: STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET")
+				"the following yaml entries: STRAVA_CLIENT_ID, STRAVA_CLIENT_SECRET")
 		}
 	}
 
